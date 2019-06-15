@@ -7,10 +7,10 @@ Next four weight matrices shape : 1024x1024 \
 Last weight matrix shape : 1024x10
 
 We will run SVD on the first 5 matrices because they are very large; to approximate the weight matrices such as:
-![]()
+![](https://github.com/shaharpit809/Deep-Learning-Models/blob/master/img/SVD_eqn1.PNG)
 
 We will vary the value of D from 10, 20, 50, 100, 200, to Dfull in the below equation:
-![]()
+![](https://github.com/shaharpit809/Deep-Learning-Models/blob/master/img/SVD_eqn2.PNG)
 
 where Dfull is the original size. Each of the 6 networks are using one of the 6 D values. We will calculate the accuracy of all the networks and check the performance of our networks. By only selecting D singular values, we can do some compression. 
 
